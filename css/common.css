@@ -1,0 +1,19 @@
+#todo-group li .task-buttons {
+  visibility: hidden;
+}
+
+#todo-group li:hover .task-buttons {
+  visibility: visible;
+}
+
+#todo-group li.run {
+  background-color: #ffffba;
+}
+
+#todo-group li.yes {
+  background-color: #c9ffcd;
+}
+
+#todo-group li.yes .text-task {
+  text-decoration: line-through;
+}
